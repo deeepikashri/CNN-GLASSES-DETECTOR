@@ -1,0 +1,28 @@
+# Trained model (large binary -- see README for hosting options; use Git LFS
+# if you do want to commit it)
+*.keras
+*.h5
+
+# Dataset (large / not yours to redistribute unless you have rights to it)
+data/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Gradio
+gradio_cached_examples/
+flagged/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env files
+.env

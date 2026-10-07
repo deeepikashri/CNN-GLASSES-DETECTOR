@@ -1,0 +1,8 @@
+# Runtime dependencies for app.py (the Gradio inference app).
+# See requirements-train.txt for the additional packages needed to
+# retrain the model with train_model.py.
+
+gradio==5.9.1
+tensorflow==2.18.0
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
